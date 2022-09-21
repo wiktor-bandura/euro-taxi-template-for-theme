@@ -6,6 +6,8 @@
   padding: 2rem;
   background-color: $color-primary;
   position: fixed;
+  z-index: 1000;
+  box-shadow: 0 1.7rem 4rem rgba(#000,0.1);
 
   &__homepage-link {
     position: relative;
@@ -38,8 +40,6 @@
 
 
   .page-title {
-    color: $color-secondary;
-    text-transform: uppercase;
     margin-right: auto;
   }
 }

@@ -1,0 +1,13 @@
+.page-section-adv {
+  grid-row: 4;
+  background-color: $color-secondary;
+
+  &__title {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  &__adv-wrapper {
+    display: grid;
+  }
+}

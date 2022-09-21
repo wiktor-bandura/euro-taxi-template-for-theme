@@ -1,0 +1,14 @@
+.heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  &--primary {
+    color: $color-secondary;
+
+  }
+
+  &--secondary {
+    color: $color-primary;
+  }
+}

@@ -1,0 +1,22 @@
+.page-description {
+  position: relative;
+  grid-row: 3;
+  background-color: $color-primary;
+  padding: 4rem 10rem;
+  box-shadow: 0 1.7rem 4rem rgba(#000,0.1);
+
+  &__content {
+    color: $color-grey-light;
+    font-size: 1.6rem;
+    max-width: 40%;
+    margin-top: 2rem;
+  }
+
+  &__euro-taxi-logo {
+    position: absolute;
+    max-height: 100%;
+    max-width: 40%;
+    bottom: 0;
+    right: 0;
+  }
+}

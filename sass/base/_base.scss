@@ -18,16 +18,6 @@ html {
     grid-template-rows: 7rem 60vh repeat(3, min-content);
   }
 
-  &-description {
-    background-color: rebeccapurple;
-    grid-row: 3;
-  }
-
-  &-section-pros {
-    background-color: royalblue;
-    grid-row: 4;
-  }
-
   &-motto {
     background-color: darkgoldenrod;
     grid-row: 5;
