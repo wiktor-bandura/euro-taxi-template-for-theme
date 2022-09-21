@@ -1,0 +1,23 @@
+.btn-call {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 1.5rem 2rem;
+    border-radius: 7px;
+    color: $color-primary;
+    text-decoration: none;
+
+    &--primary {
+      background-color: $color-secondary;
+    }
+
+    &--secondary {
+        background-color: $color-primary;
+        color: $color-secondary;
+        position: absolute;
+        bottom: 4rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 25rem;
+    }
+}
