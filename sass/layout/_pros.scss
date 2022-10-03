@@ -7,7 +7,50 @@
     text-align: center;
   }
 
+  &__line {
+    height: 4px;
+    background-color: $color-primary;
+    width: 90vw;
+    margin: 2rem auto;
+  }
+
   &__adv-wrapper {
+    max-width: 85%;
+    margin: 4rem auto;
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 4rem;
+  }
+
+  &__adv-item {
+    color: $color-grey-light;
+    background-color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    border-radius: 3rem;
+
+    &__icon {
+      fill: $color-grey-light;
+      height: 50%;
+      width: 10rem;
+      margin-bottom: 2rem;
+      transition: all .2s ease-out;
+    }
+
+    &__title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    &__content {
+      font-size: 1.2rem;
+    }
+
+    &:hover > &__icon { fill: $color-secondary; }
   }
 }

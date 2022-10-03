@@ -9,23 +9,14 @@
 html {
   font-size: 62.5%;
   font-family: $font-primary;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
-.page {
-
-  &-container {
+.page-container {
     display: grid;
     grid-template-rows: 7rem 60vh repeat(3, min-content);
+    overflow-x: hidden;
   }
-
-  &-motto {
-    background-color: darkgoldenrod;
-    grid-row: 5;
-  }
-
-  &-footer {
-    background-color: firebrick;
-    grid-row: 6;
-  }
-}
 

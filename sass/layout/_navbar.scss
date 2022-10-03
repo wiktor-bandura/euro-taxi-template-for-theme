@@ -31,15 +31,34 @@
     font-size: 1.5rem;
   }
 
+  &__nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   &__nav-link {
     color: $color-grey-light;
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 2rem;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: .5rem 0;
+
+    &::before {
+      content: '';
+      width: 100%;
+      height: 2px;
+      background-color: $color-grey-light;
+      position: absolute;
+      bottom: 0;
+      transform: translateX(-100%);
+      transition: transform .3s;
+    }
   }
 
-
-  .page-title {
-    margin-right: auto;
-  }
+  &__nav-link:hover::before { transform: translateX(0); }
+  .page-title { margin-right: auto; }
 }

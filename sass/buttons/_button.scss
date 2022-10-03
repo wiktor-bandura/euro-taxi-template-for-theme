@@ -2,22 +2,54 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 1.7rem;
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
     border-radius: 7px;
     color: $color-primary;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 
-    &--primary {
-      background-color: $color-secondary;
+    &__phone-icon {
+        width: 3rem;
+        height: 3rem;
+
+        &--primary {
+            fill: $color-primary;
+            margin-right: 1rem;
+        }
+
+        &--secondary { fill: $color-secondary; }
     }
+
+    &--primary { background-color: $color-secondary; }
 
     &--secondary {
         background-color: $color-primary;
         color: $color-secondary;
         position: absolute;
-        bottom: 4rem;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 25rem;
+        bottom: 5rem;
+        right: 8rem;
+        box-shadow: 0 0 10rem rgba($color-secondary, .3);
+        padding: 2.5rem 2.5rem;
+        font-size: 2rem;
+        border-radius: 50%;
+        z-index: 100;
+
+        &::after {
+            content: '';
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+        }
+
+        &:hover { border-radius: 2.5rem; }
+
+        &:hover::after {
+            content: '798-710-619';
+            margin-left: 2rem;
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 }
+
+.btn-call--secondary:hover ~ .phone-popup { animation: fadeIn linear .3s 1 normal forwards; }

@@ -1,0 +1,34 @@
+.page-motto {
+  grid-row: 5;
+  position: relative;
+  display: flex;
+
+  &__photo-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  &__img-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: rgba($color-primary, .3);
+    color: $color-grey-light;
+  }
+}

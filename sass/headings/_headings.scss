@@ -3,12 +3,7 @@
   text-transform: uppercase;
   font-weight: 400;
 
-  &--primary {
-    color: $color-secondary;
-
-  }
-
-  &--secondary {
-    color: $color-primary;
-  }
+  &--primary { color: $color-secondary; }
+  &--secondary { color: $color-primary;}
+  &--tertiary { color: $color-secondary }
 }

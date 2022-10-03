@@ -1,0 +1,64 @@
+.page-footer {
+  grid-row: -1;
+  background-color: $color-primary;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+
+
+
+  .information-group {
+    grid-column: auto;
+    padding: 3rem;
+
+    &:not(:nth-child(3)) {
+      border-right: 2px solid $color-secondary;
+    }
+
+    &__title {
+      margin-bottom: 2rem;
+      color: $color-secondary;
+      text-align: center;
+    }
+
+    &__content-list {
+      list-style-type: none;
+    }
+
+    &__content-item {
+      margin-bottom: 1.5rem;
+
+      &-link {
+        display: flex;
+        align-items: center;
+        color: $color-grey-light;
+        text-decoration: none;
+        font-size: 2rem;
+        transition: color .2s;
+
+        &:hover {
+          color: $color-secondary;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+      &-icon {
+        width: 3rem;
+        height: 3rem;
+        fill: currentColor;
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  .copyright-banner {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    font-size: 1.5rem;
+    color: $color-secondary;
+    text-align: center;
+    padding: 2rem;
+    text-transform: uppercase;
+  }
+}
