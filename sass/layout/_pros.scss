@@ -29,16 +29,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 0 2rem;
     text-align: center;
     position: relative;
-    border-radius: 3rem;
+    border-radius: 1rem;
 
     &__icon {
       fill: $color-grey-light;
       height: 50%;
-      width: 10rem;
-      margin-bottom: 2rem;
+      width: 100%;
+      padding: 2rem;
       transition: all .2s ease-out;
     }
 

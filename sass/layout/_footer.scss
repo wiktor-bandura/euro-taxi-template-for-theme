@@ -5,7 +5,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
-
+    @media only screen and (max-width: $bp-medium) {
+        display: flex;
+        flex-direction: column;
+    }
 
 
   .information-group {
@@ -15,6 +18,12 @@
     &:not(:nth-child(3)) {
       border-right: 2px solid $color-secondary;
     }
+
+    @media only screen and (max-width: $bp-medium) {
+      &:not(:nth-child(3)) {
+        border: none;
+      }
+  }
 
     &__title {
       margin-bottom: 2rem;
