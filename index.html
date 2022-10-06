@@ -72,7 +72,16 @@
            </p>
         </div>
 
-        <div class="page-front__layer">&nbsp;</div>
+        <div class="page-front__layer">
+            <h2 class="page-front__title">Najtańsze Taxi w mieście!</h2>
+            <h3 class="page-front__subtitle">Zadzwoń juz teraz!</h3>
+            <a href="#" class="btn-call btn-call--primary btn-mobile">
+                <svg class="btn-call__phone-icon btn-call__phone-icon--secondary">
+                    <use xlink:href="img/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                798 710 619
+            </a>
+        </div>
 
        <figure class="page-front__gallery-item">
            <img class="page-front__gallery-img" src="img/taxi5.jpg" alt="Euro Taxi pojazd marki Mercedes" loading="lazy">
@@ -177,6 +186,34 @@
                     </li>
                 </ul>
             </div>
+            <h4 class="information-group__title heading">Projekt oraz wykonanie</h4>
+            <div class="information-group__content">
+                <ul class="information-group__content-list">
+                    <li class="information-group__content-item">
+                        <p class="information-group__content-item-link">
+                            Wiktor Bandura
+                        </p>
+                    </li>
+                    <li class="information-group__content-item">
+                        <a href="https://www.linkedin.com/in/wiktor-bandura/" target="_blank" class="information-group__content-item-link">
+                            <svg class="information-group__content-item-icon">
+                                <use xlink:href="img/symbol-defs.svg#icon-linkedin2"></use>
+                            </svg>
+                            <p class="information-group__content-item-text">
+                                Link do konta na linkedIn
+                            </p>
+                        </a>
+                    </li>
+                    <li class="information-group__content-item">
+                        <a href="https://github.com/wiktor-bandura" target="_blank" class="information-group__content-item-link">
+                            <svg class="information-group__content-item-icon">
+                                <use xlink:href="img/symbol-defs.svg#icon-github"></use>
+                            </svg>
+                            <p class="information-group__content-item-text">Link do githuba</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="information-group">
             <h4 class="information-group__title heading">Gdzie nas szukać?</h4>
@@ -208,34 +245,18 @@
             </div>
         </div>
         <div class="information-group">
-            <h4 class="information-group__title heading">Projekt oraz wykonanie</h4>
-            <div class="information-group__content">
-                <ul class="information-group__content-list">
-                    <li class="information-group__content-item">
-                        <p class="information-group__content-item-link">
-                            Wiktor Bandura
-                        </p>
-                    </li>
-                    <li class="information-group__content-item">
-                        <a href="https://www.linkedin.com/in/wiktor-bandura/" target="_blank" class="information-group__content-item-link">
-                            <svg class="information-group__content-item-icon">
-                                <use xlink:href="img/symbol-defs.svg#icon-linkedin2"></use>
-                            </svg>
-                            <p class="information-group__content-item-text">
-                                Link do konta na linkedIn
-                            </p>
-                        </a>
-                    </li>
-                    <li class="information-group__content-item">
-                        <a href="https://github.com/wiktor-bandura" target="_blank" class="information-group__content-item-link">
-                            <svg class="information-group__content-item-icon">
-                                <use xlink:href="img/symbol-defs.svg#icon-github"></use>
-                            </svg>
-                            <p class="information-group__content-item-text">Link do githuba</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <h4 class="information-group__title heading">Napisz do nas</h4>
+            <form class="contact-form" action="#">
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-group__input" placeholder="Adres mailowy" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="msg" name="msg" class="form-group__input" placeholder="Wiadomość" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Wyślij wiadomość" class="form-group__submit btn-call--primary">
+                    </div>
+            </form>
         </div>
         <div class="copyright-banner">
             Copyright 2022 &copy; Euro Taxi Brzeg. Wszelkie prawa zastrzeżone.
