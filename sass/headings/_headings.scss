@@ -2,6 +2,8 @@
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 400;
+  font-family: $font-heading;
+  letter-spacing: 4px;
 
   &--primary { color: $color-secondary; }
   &--secondary { color: $color-primary;}

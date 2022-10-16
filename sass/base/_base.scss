@@ -9,18 +9,24 @@
 html {
   font-size: 62.5%;
   font-family: $font-primary;
-  font-smoothing: antialiased;
-  -moz-osx-font-smoothing: auto;
+  -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 
-  @media only screen and (max-width: $bp-largest) {
+  @media only screen and (min-width: $bp-largest) {
+    font-size: 75%;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
     font-size: 50%;
-}
+  }
+
+  
 }
 
 .page-container {
     display: grid;
-    grid-template-rows: 7rem 60vh repeat(3, min-content);
+    grid-template-rows: 7rem 60vh repeat(4, min-content);
     overflow-x: hidden;
   }
 

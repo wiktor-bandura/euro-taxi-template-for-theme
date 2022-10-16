@@ -1,6 +1,11 @@
 .page-section-adv {
   grid-row: 4;
+  padding: 8rem;
   background-color: $color-secondary;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem;
+  }
 
   &__title {
     margin-top: 4rem;
@@ -10,16 +15,15 @@
   &__line {
     height: 4px;
     background-color: $color-primary;
-    width: 90vw;
+    width: 90%;
     margin: 2rem auto;
     border: none;
   }
 
   &__adv-wrapper {
-    max-width: 85%;
     margin: 4rem auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-gap: 4rem;
   }
 
@@ -30,26 +34,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 2rem;
+    padding: 2rem;
     text-align: center;
     position: relative;
     border-radius: 1rem;
 
     &__icon {
       fill: $color-grey-light;
-      height: 50%;
-      width: 100%;
-      padding: 2rem;
+      width: 80%;
+      padding: 1rem;
       transition: all .2s ease-out;
     }
 
     &__title {
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin-bottom: 1rem;
     }
 
     &__content {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
 
     &:hover > &__icon { fill: $color-secondary; }
