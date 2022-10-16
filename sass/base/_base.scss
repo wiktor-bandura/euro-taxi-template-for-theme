@@ -28,5 +28,17 @@ html {
     display: grid;
     grid-template-rows: 7rem 60vh repeat(4, min-content);
     overflow-x: hidden;
-  }
+}
 
+.scroll-anim {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(-30px);
+  transition: all .6s ease-in-out;
+}
+
+.fade {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
