@@ -41,8 +41,8 @@ Front End for future Wrodpress theme for taxi corporation from Brzeg.
                 </div>
 ```
 
-* [SCSS]()
-* [BEM]()
+* [SCSS]('https://sass-lang.com/')
+* [BEM]('https://getbem.com/')
 
 ```scss
 .page-description {
