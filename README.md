@@ -10,12 +10,12 @@
 ### General info 💬
 Front End for future Wrodpress theme for taxi corporation from Brzeg. 
 
-🚕 [VISIT WEBSITE eurotaxibrzeg.eu]('https://eurotaxibrzeg.eu') 🚕
+🚕 [VISIT WEBSITE eurotaxibrzeg.eu](https://www.eurotaxibrzeg.eu) 🚕
 
 ### Technologies and tools 🛠
 
 
-* [HTML5]('https://html5.org/') 
+* [HTML5](https://html5.org/) 
 
   Example of my code in this project:
 ```html
@@ -43,8 +43,8 @@ Front End for future Wrodpress theme for taxi corporation from Brzeg.
                 </div>
 ```
 
-* [SCSS]('https://sass-lang.com/')
-* [BEM]('https://getbem.com/')
+* [SCSS](https://sass-lang.com/)
+* [BEM](https://getbem.com/)
 
 ```scss
 .page-description {
