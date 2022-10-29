@@ -1,5 +1,5 @@
 # Euro Taxi Brzeg Webstite
-### Static HTML CSS and JS files that will be changed into Wordpress theme
+### Static HTML CSS and JS files for Wordpress theme
 ---
 ## Table of contents
 - [General info](#general-info)
@@ -9,6 +9,8 @@
 
 ### General info
 Front End for future Wrodpress theme for taxi corporation from Brzeg. 
+
+[VISIT WEBSITE eurotaxibrzeg.eu]('https://eurotaxibrzeg.eu')
 
 ### Technologies and tools 
 
