@@ -1,21 +1,21 @@
-# Euro Taxi Brzeg Webstite
+# Euro Taxi Brzeg Webstite 🚖
 ### Static HTML CSS and JS files for Wordpress theme
 ---
-## Table of contents
+## Table of contents 📚
 - [General info](#general-info)
 - [Technologies and tools](#technologies-and-tools)
 - [How to run](#how-to-run)
 ---
 
-### General info
+### General info 💬
 Front End for future Wrodpress theme for taxi corporation from Brzeg. 
 
-[VISIT WEBSITE eurotaxibrzeg.eu]('https://eurotaxibrzeg.eu')
+🚕 [VISIT WEBSITE eurotaxibrzeg.eu]('https://eurotaxibrzeg.eu') 🚕
 
-### Technologies and tools 
+### Technologies and tools 🛠
 
 
-* [HTML5]('https://html5.org/')
+* [HTML5]('https://html5.org/') 
 
   Example of my code in this project:
 ```html
@@ -98,11 +98,13 @@ const observer = new IntersectionObserver((entries) => {
 elementsToAnimate.forEach((el) => observer.observe(el));
 ```
 
-### How to run it locally
+### How to run it locally 💻
 
-1. INSTALL - Install all dependencies.
-2. WATCH:SASS - Runs dev server
-3. BULD:CSS - Compiles, concatenates and minimizes scss files
+| Command        | Description  |
+| ------------- |:-------------:|
+| npm install      | Install all dependencies |
+| npm run watch:sass     | Runs dev server      |
+| npm run build:css | Compiles, concatenates and minimizes scss files      |
 
 ```bash
     npm install
