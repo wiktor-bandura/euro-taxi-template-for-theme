@@ -82,20 +82,18 @@ Front End for future Wrodpress theme for taxi corporation from Brzeg.
   Example of my code in this project:
 
 ```js
-const elementsToAnimate = document.querySelectorAll('.scroll-anim');
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        console.log(entry);
+const elementsToAnimate = document.querySelectorAll(".scroll-anim");
 
-        if(entry.isIntersecting) {
-            entry.target.classList.add('fade');
-        } else {
-            entry.target.classList.remove('fade');
-        }
-    })
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) =>
+    entry.isIntersecting
+      ? entry.target.classList.add("fade")
+      : entry.target.classList.remove("fade")
+  );
 });
 
 elementsToAnimate.forEach((el) => observer.observe(el));
+
 ```
 
 ### How to run it locally 💻
